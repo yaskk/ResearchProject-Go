@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS tasks (
 INSERT INTO tasks (title, description, priority)
 VALUES ('Buy groceries', 'Milk, bread, and eggs', 1),
        ('Finish project', 'Complete the report and submit it', 2),
-       ('Call John', NULL, 3),
+       ('Call John', 'Ask about the meeting next week', 3),
        ('Schedule appointment', 'Meet with the dentist on Friday', 2);
